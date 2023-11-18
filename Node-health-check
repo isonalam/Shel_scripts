@@ -1,6 +1,10 @@
 #!/bin/bash 
 
-set -x # debug-mode
+set -x            # debug-mode
+
+set -e            # exits script when there is error
+
+set -o            # pipefail
 
 df -h
 
@@ -9,3 +13,5 @@ free
 top
 
 nproc
+
+ps -ef | grep "amazon" | awk -F" " '{print $1,$2,$3}'
