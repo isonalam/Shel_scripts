@@ -1,0 +1,7 @@
+#!/bin/bash 
+
+echo "Hello, Good Morning"
+
+read -p "may i know what is your name? " username
+
+echo "Welcome,$username.....Glad to have you here,hope you enjoy!!!!!!!!"
