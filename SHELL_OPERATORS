@@ -1,0 +1,18 @@
+#!/bin/bash 
+
+a=2
+b=5
+
+sum=$((a+b))
+sub=$((b-a))
+mul=$((a*b))
+div=$((b/a))
+
+echo "total sum is: $sum"
+echo "total diff is: $sub"
+echo "total product is: $mul"
+echo "total quotient is: $div"
+
+
+
+
