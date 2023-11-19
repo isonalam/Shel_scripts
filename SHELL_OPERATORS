@@ -14,5 +14,43 @@ echo "total product is: $mul"
 echo "total quotient is: $div"
 
 
+a=10
+b=20
+
+if [ $a -eq $b ];
+then
+   echo "Value is equal"
+else
+  echo "Value is not equal"
+fi
+
+
+
+if [ -x "f1" ];
+then
+   echo "File is executable"
+else
+   echo "File is not executable"
+fi
+
+
+if [ -d "f1" ];
+then
+   echo "File is directory"
+else
+   echo "File is not directory"
+fi
+
+
+if [ -e "f1" ];
+then
+   echo "File is exists"
+else
+   echo "File do not exist"
+fi
+
+
+
+
 
 
