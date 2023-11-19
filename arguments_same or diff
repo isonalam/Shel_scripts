@@ -1,0 +1,22 @@
+#!/bin/bash
+
+a=$1
+b=$2
+
+if [ $1 == $2 ];
+then
+echo "the values are same"
+else 
+echo "the values are diff"
+fi 
+
+echo $0
+
+echo $*
+
+echo $1
+
+echo $#
+
+echo $?
+
