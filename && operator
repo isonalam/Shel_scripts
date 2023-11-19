@@ -1,0 +1,10 @@
+#!/bin/bash 
+
+read -p "please enter the number: " num
+
+if [ $((num % 3)) -eq 0 ] && [ $((num % 15)) -ne 0 ];
+then
+echo "the condition is met"
+else 
+echo "the condition is not met"
+fi 
