@@ -1,0 +1,23 @@
+#!/bin/bash
+
+# Input values
+echo "Enter the value of variable A:"
+read a
+
+echo "Enter the value of variable B:"
+read b
+
+# Displaying values before swapping
+echo "Before swapping:"
+echo "A: $a"
+echo "B: $b"
+
+# Swapping using a third variable
+temp=$a
+a=$b
+b=$temp
+
+# Displaying values after swapping
+echo "After swapping:"
+echo "A: $a"
+echo "B: $b"
