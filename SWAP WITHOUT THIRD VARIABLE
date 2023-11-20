@@ -1,0 +1,14 @@
+#!/bin/bash
+
+# Input values
+read -p "Enter the value of variable A: " a
+read -p "Enter the value of variable B: " b
+
+echo "Before swapping: A=$a, B=$b"
+
+# Swap the values without using a third variable
+a=$((a + b))
+b=$((a - b))
+a=$((a - b))
+
+echo "After swapping: A=$a, B=$b"
